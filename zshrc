@@ -136,12 +136,7 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 alias textedit="open -a TextEdit"
 
 
-# intellij things
-alias idea="/usr/local/bin/idea"
-alias sevginselelnium="idea /Users/xalil/IdeaProjects/seleniumTestNGSevgin"
-alias mysel="idea /Users/xalil/IdeaProjects/seleniumTestNGC3"
-alias sevginjava="idea /Users/xalil/IdeaProjects/renasSevginJava/"
-alias myjava="idea /Users/xalil/IdeaProjects/JavaRenastechC3"
+
 
 # Aliases - Folder
 alias h="cd ~"
@@ -150,16 +145,7 @@ alias m="cd ~/Music/"
 alias p="cd ~/Pictures/"
 alias dn="cd ~/Downloads/"
 alias doc="cd ~/Documents"
-alias jv="cd ~/Desktop/bimis/javaVideos/"
-alias sv="cd ~/Desktop/bimis/selenium/"
-alias ssv="cd ~/Desktop/bimis/softskill/"
-alias db="cd ~/Desktop/bimis/database"
-alias notlar="cd ~/Desktop/Notlar/"
-alias ln="vim ~/Desktop/Notlar/Linux-Bilgiler/index.md"
-alias mn="vim ~/Desktop/Notlar/macnotes/index.md"
-alias junk="cd /Users/xalil/junk"
-alias ew="cd /Users/xalil/eclipse-workspace"
-alias mi="cd ~/Desktop/bimis/miiq"
+
 
 # Aliases - Config Files
 alias zshrc="vim ~/.zshrc"
@@ -168,40 +154,9 @@ alias cfg-espanso="vim /Users/xalil/Library/Preferences/espanso/default.yml"
 alias nvimrc="vim /Users/xalil/.config/nvim/init.vim"
 alias cfg-newsboat="vim ~/.newsboat/urls"
 
-alias jw="vim ~/Desktop/bimis/javaVideos/javawiki/index.md"
-alias jv="cd ~/Desktop/bimis/javavideos/"
-alias dbv="cd ~/Desktop/bimis/database/"
-alias av="cd ~/Desktop/bimis/API/"
-alias notlar="cd ~/Desktop/Notlar/"
-alias ln="vim ~/Desktop/Notlar/Linux-Bilgiler/index.md"
-alias sw="vim ~/Desktop/bimis/selenium/selwiki/index.md"
-alias ss="vim ~/Desktop/bimis/softskill/softskillindex.md"
-alias dw="vim ~/Desktop/bimis/database/databaseWiki/index.md"
-alias aw="vim /Users/xalil/Desktop/bimis/API/API_Wiki/index.md"
-alias sv="cd ~/Desktop/bimis/selenium/"
 
 
-alias int-filiz-sprintSummary="vim ~/Desktop/bimis/database/databaseWiki/DatabaseInterviewQuestions.md"
-alias int-softskill="open ~/Desktop/bimis/softskill/Softskill-w-Table-of-Contents.pdf" 
-alias int-tellme="open ~/Desktop/bimis/softskill/Tell_me_about_yourself.pdf"
-alias int-sql="open ~/Desktop/bimis/database/DataBase_Interview/sql_interview.pdf"
-alias int-sel="vim ~/Desktop/bimis/selenium/interview/Selenium_Interview_Questions.md"
-alias int-framework="open ~/Desktop/bimis/CucumberBDD-FrameWork.pdf"
-alias int-All="vim /Users/xalil/Desktop/bimis/interview/interviewQuestions"
-alias user-story="cat /Users/xalil/snippets/.multisnippet/user_story"
-alias acceptance-criteria="cat /Users/xalil/snippets/.multisnippet/acceptance_criteria"
 
-# interview things
-alias int-reqruiter-questions="vim /Users/xalil/snippets/.multisnippet/int-recruiter-call"
-
-# Udemy Courses
-alias udemy-sql="open https://www.udemy.com/course/oracle-sql-12c-become-an-sql-developer-with-subtitle/learn/lecture/"
-alias udemy-api="open https://www.udemy.com/course/learn-rest-api-automation-using-rest-assured/learn/lecture/"
-alias udemy-rahul-cucumber="open https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/"
-alias udemy-dizlearn-cucumber="open https://www.udemy.com/course/cucumber-from-scratch/learn/lecture/"
-alias udemy-tim-cucumber="open https://www.udemy.com/course/cucumber-framework-for-behavior-driven-development/learn/lecture/"
-alias udemy-redhat="open https://www.udemy.com/course/unofficial-linux-redhat-certified-system-administrator-rhcsa-8/learn/lecture/"
-alias udemy-jmeter="open https://www.udemy.com/course/learn-jmeter-from-scratch-performance-load-testing-tool/learn/lecture/"
 
 
 # Android Testing Things 
@@ -299,15 +254,7 @@ fmp4(){
 foldersearch() {
 DIR=$(find ${1:-.} -type d 2> /dev/null | fzf) && cd "$DIR"
 }
-#{{{=====Reddit-channels-for-rtv===
-alias rtv-privacy="rtv --enable-media -s /privacy"
-alias rtv-linux="rtv --enable-media -s /linux"
-alias rtv-opensource="rtv --enable-media -s /opensource"
-alias rtv-commandline="rtv --enable-media -s /commandline"
-alias rtv-Filmmakers="rtv --enable-media -s /Filmmakers"
-alias rtv-qa="rtv --enable-media -s /QAGeeks"
-alias rtv-suckless="rtv --enable-media -s /suckless"
-#}}}*************************************
+
 
 #Snippets
 # location of snippets, folder created in step 2 or custom location
